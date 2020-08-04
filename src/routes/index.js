@@ -21,8 +21,8 @@ router.get('/pagination-filter', (req, res) => {
   res.render('pagination-filter.html');
 });
 
-router.get('/quote-generator', (req, res) => {
-  res.render('quote-generator.html');
+router.get('/quote-gen', (req, res) => {
+  res.render('quote-gen.html');
 });
 
 router.get('/tic-tac', (req, res) => {
