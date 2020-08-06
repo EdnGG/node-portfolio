@@ -6,9 +6,8 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portfolio</title>
-  <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800" rel="stylesheet" />
-  <link rel="stylesheet" href="../css/foundation.css" />
-  <link rel="stylesheet" href="../css/style.css" />
+  <%- include('partials/header') -%>
+
 </head>
 
 <body>
@@ -23,7 +22,7 @@
         <p class="text-light">
           Hey everyone I'm a web developer, passionate about technology, I
           enjoy learning more every day about this industry that is changing
-          step by step the world where we live.
+          step by step the world where we live
         </p>
         <a href="/about" class="">Learn More &rarr;</a>
       </div>
@@ -45,11 +44,12 @@
     <article class="grid-container portfolio-intro portfolio-project">
       <div class="grid-x">
         <div class="cell small-6 medium-9 large-9">
-          <h1>Pagination Filter</h1>
+          <h1>Interactive Form</h1>
           <p class="lead text-light">
-            In this project is about handling a employee directory and show on
-            screen the correct 10 employees at a time. also I build a search
-            employee input
+            In this project I used JavaScript to manipulate the inputs to make
+            them interactive. This form show the client the require inputs
+            that he has to fill it up correctly. I use a few Regex expressions
+            just for validate the name, email valid credit card and so on!!
           </p>
         </div>
         <div class="cell portfolio-meta small-6 medium-2 large-3">
@@ -60,15 +60,14 @@
             <li>JavaScript</li>
             <li>Jquery</li>
           </ul>
-          <a class="button expanded" href="https://edngg.github.io/pagination-filter-v2/#" target="_blank">Live Demo</a>
-          <a class="button expanded" href="https://github.com/EdnGG/pagination-filter-v2" target="_blank">GitHub
-            Repo</a>
+          <a class="button expanded" href="https://edngg.github.io/project3-treehouse/" target="_blank">Live Demo</a>
+          <a class="button expanded" href="https://github.com/EdnGG/project3-treehouse" target="_blank">GitHub Repo</a>
         </div>
       </div>
       <br />
-      <img class="image" src="/img/pagination-1.png" />
-      <img class="image" src="/img/pagination-2.png" />
-      <img class="image" src="/img/pagination-3.png" />
+      <img class="image" src="/img/form-images-1.png" />
+      <img class="image" src="/img/form-images-2.png" />
+      <img class="image" src="/img/form-images-3.png" />
     </article>
   </div>
 
@@ -84,5 +83,3 @@
 </body>
 
 </html>
-
-<!--  testing -->

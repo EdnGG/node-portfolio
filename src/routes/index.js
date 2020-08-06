@@ -13,25 +13,25 @@ router.get('/fetch-api', (req, res) => {
   res.render('fetch-api');
 });
 
-// router.get('/interactive-form', (req, res) => {
-//   res.render('interactive-form.html');
-// });
+router.get('/interactive-form', (req, res) => {
+  res.render('interactive-form');
+});
 
-// router.get('/pagination-filter', (req, res) => {
-//   res.render('pagination-filter.html');
-// });
+router.get('/pagination-filter', (req, res) => {
+  res.render('pagination-filter');
+});
 
-// router.get('/quote-gen', (req, res) => {
-//   res.render('quote-gen.html');
-// });
+router.get('/quote-gen', (req, res) => {
+  res.render('quote-gen');
+});
 
-// router.get('/tic-tac', (req, res) => {
-//   res.render('tic-tac.html');
-// });
+router.get('/tic-tac', (req, res) => {
+  res.render('tic-tac');
+});
 
-// router.get('/vsi-project', (req, res) => {
-//   res.render('vsi-project.html');
-// });
+router.get('/vsi-project', (req, res) => {
+  res.render('vsi-project');
+});
 
 
 module.exports = router;

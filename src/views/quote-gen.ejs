@@ -6,9 +6,8 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portfolio</title>
-  <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800" rel="stylesheet" />
-  <link rel="stylesheet" href="../css/foundation.css" />
-  <link rel="stylesheet" href="../css/style.css" />
+  <%- include('partials/header') -%>
+
 </head>
 
 <body>
@@ -45,12 +44,12 @@
     <article class="grid-container portfolio-intro portfolio-project">
       <div class="grid-x">
         <div class="cell small-6 medium-9 large-9">
-          <h1>Interactive Form</h1>
+          <h1>Random Quote Generator</h1>
           <p class="lead text-light">
-            In this project I used JavaScript to manipulate the inputs to make
-            them interactive. This form show the client the require inputs
-            that he has to fill it up correctly. I use a few Regex expressions
-            just for validate the name, email valid credit card and so on!!
+            This project is built with HTML, CSS, Javascript, It makes use of
+            an array of objects in which each one contains a famous phrase.
+            every 20 seconds after the button has been pressed. randomly
+            display a famous phrase
           </p>
         </div>
         <div class="cell portfolio-meta small-6 medium-2 large-3">
@@ -59,16 +58,14 @@
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
-            <li>Jquery</li>
           </ul>
-          <a class="button expanded" href="https://edngg.github.io/project3-treehouse/" target="_blank">Live Demo</a>
-          <a class="button expanded" href="https://github.com/EdnGG/project3-treehouse" target="_blank">GitHub Repo</a>
+          <a class="button expanded" href="https://edngg.github.io/project-01/" target="_blank">Live Demo</a>
+          <a class="button expanded" href="https://github.com/EdnGG/project-01" target="_blank">GitHub Repo</a>
         </div>
       </div>
-      <br />
-      <img class="image" src="/img/form-images-1.png" />
-      <img class="image" src="/img/form-images-2.png" />
-      <img class="image" src="/img/form-images-3.png" />
+      <img class="image" src="/img/random-quote-1.jpeg" />
+      <img class="image" src="/img/random-quote-2.png" />
+      <img class="image" src="/img/random-quote-3.png" />
     </article>
   </div>
 
@@ -84,3 +81,5 @@
 </body>
 
 </html>
+
+<!--  testing -->
