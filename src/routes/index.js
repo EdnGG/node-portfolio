@@ -35,9 +35,9 @@ router.get('/vsi-project', (req, res) => {
   res.render('vsi-project');
 });
 
-// router.get('*', (req, res) => {
-//   res.render('404');
-// });
+router.get('/api-vue', (req, res) => {
+  res.render('api-vue');
+});
 
 
 module.exports = router;
