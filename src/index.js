@@ -21,6 +21,12 @@ app.use(require('./routes/index'))
 app.use(express.static(path.join(__dirname, 'public')))
 
 
+app.use(function (req, res, next) {
+  // res.status(404).sendFile('views/404.ejs');
+  res.render('404')
+
+});
+
 // Listening the server
 app.listen(app.get('port'), () => {
   console.log('Server listen on', app.get('port'))

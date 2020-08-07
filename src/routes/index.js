@@ -1,6 +1,8 @@
 const express = require('express');
 const router = express.Router();
 
+
+
 router.get('/', (req, res) => {
   res.render('index');
 });
@@ -32,6 +34,10 @@ router.get('/tic-tac', (req, res) => {
 router.get('/vsi-project', (req, res) => {
   res.render('vsi-project');
 });
+
+// router.get('*', (req, res) => {
+//   res.render('404');
+// });
 
 
 module.exports = router;
