@@ -39,5 +39,8 @@ router.get('/api-vue', (req, res) => {
   res.render('api-vue');
 });
 
+router.get('/block-buster', (req, res) => {
+  res.render('block-buster');
+});
 
 module.exports = router;
