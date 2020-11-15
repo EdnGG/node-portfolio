@@ -43,4 +43,8 @@ router.get('/block-buster', (req, res) => {
   res.render('block-buster');
 });
 
+router.get('/vue-localstorage', (req, res) => {
+  res.render('vue-localStorage');
+});
+
 module.exports = router;
