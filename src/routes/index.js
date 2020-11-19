@@ -47,4 +47,7 @@ router.get('/vue-localstorage', (req, res) => {
   res.render('vue-localStorage');
 });
 
+router.get('/api-vue-firebase', (req, res) => {
+  res.render('api-auth-vue-firebase');
+});
 module.exports = router;
