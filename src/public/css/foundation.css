@@ -4286,8 +4286,8 @@ select {
       margin-bottom: 250px; }
     .position-bottom.reveal-for-medium ~ .off-canvas-content {
       margin-bottom: 250px; } }
-
-@media print, screen and (min-width: 64em) {
+/* @media print, screen and (min-width: 64em) { */
+@media print, screen and (min-width: 40em) { 
   .position-left.reveal-for-large {
     -ms-transform: none;
         transform: none;
