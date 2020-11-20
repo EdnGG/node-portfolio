@@ -4287,7 +4287,7 @@ select {
     .position-bottom.reveal-for-medium ~ .off-canvas-content {
       margin-bottom: 250px; } }
 /* @media print, screen and (min-width: 64em) { */
-@media print, screen and (min-width: 40em) { 
+@media print, screen and (min-width: 64em) { 
   .position-left.reveal-for-large {
     -ms-transform: none;
         transform: none;
