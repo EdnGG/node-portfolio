@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en" dir="ltr">
 
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-  <title>404 HTML Template by Colorlib</title>
+  <title>404</title>
 
   <!-- Google font -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:500" rel="stylesheet">
@@ -15,6 +14,12 @@
 
   <!-- Custom stlylesheet -->
   <link type="text/css" rel="stylesheet" href="css/404-style.css" />
+  <link rel="stylesheet" href="../css/foundation.css" />
+  <link rel="stylesheet" href="../css/foundation.min.css" />
+
+  <!-- <link rel="stylesheet" href="../css/style.css" /> -->
+  <!-- ANIMATE.CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 
 </head>
@@ -27,11 +32,13 @@
         <h1>404</h1>
       </div>
       <h2>Oops! This Page Could Not Be Found</h2>
-
+      <br>
+      <hr>
       <a href="/">Home</a>
     </div>
   </div>
+  <%- include('partials/scripts') -%>
 
-</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</body>
 
 </html>
