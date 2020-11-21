@@ -3,11 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",
-  "homepage": "/",
   "scripts": {
     "start": "node src",
     "dev": "nodemon src",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "now": {
+    "engines": {
+      "node": "12.x"
+    }
   },
   "keywords": [],
   "author": "Eden Gress <gresseden@gmail.com> (https://www.facebook.com/liledn.mexikn)",
