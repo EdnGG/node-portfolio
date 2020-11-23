@@ -48,4 +48,8 @@ router.get("/vue-localstorage", (req, res) => {
 router.get("/api-vue-firebase", (req, res) => {
   res.render("api-auth-vue-firebase");
 });
+
+router.get("/api-countries", (req, res) => {
+  res.render("api-countries");
+});
 module.exports = router;
