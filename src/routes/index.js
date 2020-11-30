@@ -52,4 +52,8 @@ router.get("/api-vue-firebase", (req, res) => {
 router.get("/api-countries", (req, res) => {
   res.render("api-countries");
 });
+
+router.get("/shopping-car", (req, res) => {
+  res.render("shopping-car");
+});
 module.exports = router;
