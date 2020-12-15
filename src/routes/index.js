@@ -56,4 +56,12 @@ router.get("/api-countries", (req, res) => {
 router.get("/shopping-car", (req, res) => {
   res.render("shopping-car");
 });
+
+router.get("/vue-2-crud", (req, res) => {
+  res.render("vue-2-crud");
+});
+
+router.get("/vue-mongodb", (req, res) => {
+  res.render("vue-mongodb");
+});
 module.exports = router;
