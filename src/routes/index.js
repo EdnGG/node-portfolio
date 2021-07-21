@@ -68,6 +68,10 @@ router.get("/vue-mongodb", (req, res) => {
 router.get("/react-crud", (req, res) => {
   res.render("react-crud");
 });
+router.get("/technical-test", (req, res) => {
+  res.render("technical-test");
+});
+
 module.exports = router;
 
 
