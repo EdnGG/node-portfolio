@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <%- include('partials/header') -%>
+
+</head>
+
+<body>
+
+  <%- include('partials/about') -%>
+
+  <div class="off-canvas-content" data-off-canvas-content>
+    <div class="title-bar hide-for-large">
+      <div class="title-bar-left">
+        <button class="menu-icon" type="button" data-toggle="my-info"></button>
+        <span class="title-bar-title">Eden Gomez</span>
+      </div>
+    </div>
+
+    <nav class="grid-container portfolio-breadcrumb">
+      <a class="" href="/">&larr; Back</a>
+    </nav>
+
+    <article class="grid-container portfolio-intro portfolio-project">
+      <div class="grid-x">
+        <div class="cell small-6 medium-9 large-9">
+          <h1>Vuetify Todo</h1>
+          <p class="lead text-light">
+            This project was built using Vue.js + Vuex + Vuetify, I make this project with the purpuse practice how to
+            handle global data using Vuex, also I have to say that Vuetify is an amazing UI Framework and theres a lot of 
+            opportunities when becomes to build new projects.
+          </p>
+        </div>
+        <div class="cell portfolio-meta small-6 medium-2 large-3">
+          <h6>Technologies</h6>
+          <ul>
+            <li>Vue.js</li>
+            <li>Vuetify</li>
+            <li>SASS</li>
+            <li>Vuex</li>
+            <li>Localbase</li>
+          </ul>
+          <a class="button expanded" href=https://vuetify-todo-udemy.netlify.app/#/ target="_blank">Live Demo</a>
+          <a class="button expanded" href=https://github.com/EdnGG/vuetify-todo-udemy target="_blank">GitHub Repo</a>
+        </div>
+      </div>
+      <br>
+      <img class="image" src="/img/todo-vuetify/vuetify-todo-2.png" />
+      <img class="image" src="/img/todo-vuetify/vuetify-todo-3.png" />
+      <img class="image" src="/img/todo-vuetify/vuetify-todo-4.png" />
+    </article>
+  </div>
+
+  <%- include('partials/scripts') -%>
+</body>
+
+</html>

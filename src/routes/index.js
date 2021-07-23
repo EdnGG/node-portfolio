@@ -71,6 +71,9 @@ router.get("/react-crud", (req, res) => {
 router.get("/technical-test", (req, res) => {
   res.render("technical-test");
 });
+router.get("/todo-vuetify", (req, res) => {
+  res.render("todo-vuetify");
+});
 
 module.exports = router;
 
