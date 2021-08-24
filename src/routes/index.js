@@ -74,6 +74,9 @@ router.get("/technical-test", (req, res) => {
 router.get("/todo-vuetify", (req, res) => {
   res.render("todo-vuetify");
 });
+router.get("/todo-vuetify-mevn", (req, res) => {
+  res.render("todo-vuetify-mevn");
+});
 
 module.exports = router;
 
