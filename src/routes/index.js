@@ -77,6 +77,9 @@ router.get("/todo-vuetify", (req, res) => {
 router.get("/todo-vuetify-mevn", (req, res) => {
   res.render("todo-vuetify-mevn");
 });
+router.get("/postgres-api", (req, res) => {
+  res.render("postgres-api");
+});
 
 module.exports = router;
 
