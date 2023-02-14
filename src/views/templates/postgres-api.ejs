@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <%- include('partials/header') -%>
+
+</head>
+
+<body>
+
+  <%- include('partials/about') -%>
+
+    <div class="off-canvas-content" data-off-canvas-content>
+      <div class="title-bar hide-for-large">
+        <div class="title-bar-left">
+          <button class="menu-icon" type="button" data-toggle="my-info"></button>
+          <span class="title-bar-title">Eden Gomez</span>
+        </div>
+      </div>
+
+      <nav class="grid-container portfolio-breadcrumb">
+        <a class="" href="/">&larr; Back</a>
+      </nav>
+
+      <article class="grid-container portfolio-intro portfolio-project">
+        <div class="grid-x">
+          <div class="cell small-6 medium-9 large-9">
+            <h1>CRUD API</h1>
+            <p class="lead text-light">
+              This project is a simple API using Postgresql as a Database, you can Create, Delete, Updated and Read all
+              informacion
+              that is storaged in Postgresql using heroku postgresql addon. also the api is hosted in heroku.
+              Feel free to check the documentacion that was created using Postman and see how each endpoint works.
+            </p>
+          </div>
+          <div class="cell portfolio-meta small-6 medium-2 large-3">
+            <h6>Technologies</h6>
+            <ul>
+              <li>Node.js</li>
+              <li>express.js</li>
+              <li>Mysql</li>
+              <li>Sequelize</li>
+              <li>Postgresql</li>
+              <li>Heroku DB</li>
+              <li>Docker</li>
+            </ul>
+            <a class="button expanded" href=https://secure-shore-83226.herokuapp.com/ target="_blank">CRUD API</a>
+            <a class="button expanded" href=https://documenter.getpostman.com/view/6516976/UVXona7D
+              target="_blank">Postman Documentation</a>
+          </div>
+        </div>
+        <br>
+        <img class="image" src="/img/api-postgresql/api1.png" />
+        <img class="image" src="/img/api-postgresql/api2.png" />
+        <img class="image" src="/img/api-postgresql/api3.png" />
+      </article>
+    </div>
+
+    <%- include('partials/scripts') -%>
+</body>
+
+</html>

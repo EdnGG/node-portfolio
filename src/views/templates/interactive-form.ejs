@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <%- include('partials/header') -%>
+
+</head>
+   
+<body>
+
+  <%- include('partials/about')-%>
+
+  <div class="off-canvas-content" data-off-canvas-content>
+    <div class="title-bar hide-for-large">
+      <div class="title-bar-left">
+        <button class="menu-icon" type="button" data-toggle="my-info"></button>
+        <span class="title-bar-title">Eden Gomez</span>
+      </div>
+    </div>
+
+    <nav class="grid-container portfolio-breadcrumb">
+      <a class="" href="/">&larr; Back</a>
+    </nav>
+
+    <article class="grid-container portfolio-intro portfolio-project">
+      <div class="grid-x">
+        <div class="cell small-6 medium-9 large-9">
+          <h1>Interactive Form</h1>
+          <p class="lead text-light">
+            In this project I used JavaScript to manipulate the inputs to make
+            them interactive. This form show the client the require inputs
+            that he has to fill it up correctly. I use a few Regex expressions
+            just for validate the name, email valid credit card and so on!!
+          </p>
+        </div>
+        <div class="cell portfolio-meta small-6 medium-2 large-3">
+          <h6>Technologies</h6>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Jquery</li>
+          </ul>
+          <a class="button expanded" href="https://edngg.github.io/project3-treehouse/" target="_blank">Live Demo</a>
+          <a class="button expanded" href="https://github.com/EdnGG/project3-treehouse" target="_blank">GitHub Repo</a>
+        </div>
+      </div>
+      <br />
+      <img class="image" src="/img/form-images-1.png" />
+      <img class="image" src="/img/form-images-2.png" />
+      <img class="image" src="/img/form-images-3.png" />
+    </article>
+  </div>
+
+  <%- include('partials/scripts') -%>
+
+</body>
+
+</html>
