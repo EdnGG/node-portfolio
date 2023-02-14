@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Site</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfolio Site</title>
+    <%- include('partials/header') -%>
+  </head>
 
-  <%- include('partials/header') -%>
-
-</head>
-
-<body>
-
-  <%- include('partials/about')-%>
+  <body>
+    <%- include('partials/about')-%>
 
     <div class="off-canvas-content" data-off-canvas-content>
       <div class="title-bar hide-for-large">
         <div class="title-bar-left">
-          <button class="menu-icon" type="button" data-toggle="my-info"></button>
+          <button
+            class="menu-icon"
+            type="button"
+            data-toggle="my-info"
+          ></button>
           <span class="title-bar-title">Eden Gomez</span>
         </div>
       </div>
@@ -26,10 +27,11 @@
         <div class="">
           <h1>Hello Everyone!</h1>
           <p class="lead text-light">
-            My name is Eden Gomez and this is my portfolio. I build it using Node.js. Express.js and EJS as a
-            template engine. Also I included a 404 page. So my goal is be
-            a good web developer. Currently I have worked with technologies such
-            as HTML, CSS, Javascript, Node.Js, Express.js Vue.Js, React.js and Firebase.
+            Hello everyone, my name is Eden Gomez and this is my portfolio. I
+            build it using technologies such as Node.js. Express.js and EJS as a
+            template engine. I love all about the tech field and I'm open to
+            work and colaborate with amazing people helping to build amazing
+            things.
           </p>
         </div>
       </article>
@@ -54,12 +56,7 @@
               <h5>Interactive Form</h5>
             </a>
           </div>
-          <div class="cell">
-            <a href="/fetch-api">
-              <img class="thumbnail" src="/img/fetch-api-2.png" />
-              <h5>Fetch Api</h5>
-            </a>
-          </div>
+
           <div class="cell">
             <a href="/tic-tac">
               <img class="thumbnail" src="/img/game-4.png" />
@@ -80,74 +77,76 @@
           </div>
           <div class="cell">
             <a href="/block-buster">
-              <img class="thumbnail" src="/img/block-buster/block-buster-2.png" alt="block-buster" />
+              <img
+                class="thumbnail"
+                src="/img/block-buster/block-buster-2.png"
+                alt="block-buster"
+              />
               <h5>Block Buster (cloning react-api)</h5>
             </a>
           </div>
           <div class="cell">
             <a href="/vue-localStorage">
-              <img class="thumbnail" src="/img/vue-localstorage/vue-local-4.png" alt="vue-local-storage-browser" />
+              <img
+                class="thumbnail"
+                src="/img/vue-localstorage/vue-local-4.png"
+                alt="vue-local-storage-browser"
+              />
               <h5>Vue Todos Using Local Storage Browser</h5>
             </a>
           </div>
-          <div class="cell">
-            <a href="/api-vue-firebase">
-              <img class="thumbnail" src="/img/auth-api-fb/fb-4.png" alt="vue-local-storage-browser" />
-              <h5>API-Auth Using Vue.js and Firebase</h5>
-            </a>
-          </div>
-          <div class="cell">
-            <a href="/api-countries">
-              <img class="thumbnail" src="/img/api-countries/api-countries-2.png" alt="API Countries Vuex" />
-              <h5>API Countries using Vue Composition API</h5>
-            </a>
-          </div>
+
           <div class="cell">
             <a href="/shopping-car">
-              <img class="thumbnail" src="/img/shopping-cart/shopping-1.png" alt="Vue, Vuex Shopping car" />
+              <img
+                class="thumbnail"
+                src="/img/shopping-cart/shopping-1.png"
+                alt="Vue, Vuex Shopping car"
+              />
               <h5>Shopping Car Using Vue.js Vuex. Composition API. Boostrap</h5>
             </a>
           </div>
-          <div class="cell">
-            <a href="/vue-2-crud">
-              <img class="thumbnail" src="/img/vue-2-crud/vue-2-crud1.png" alt="Vue, Vuex Firebase CRUD" />
-              <h5>CRUD Using Vue.js, Vuex, Boostrap 4, and Firebase Firestore</h5>
-            </a>
-          </div>
-          <div class="cell">
-            <a href="/vue-mongodb">
-              <img class="thumbnail" src="/img/mongoDB/mongo-5.png" alt="Vue, Vuex Firebase CRUD" />
-              <h5>A simple CRUD Using Vue.js, Vuex, Node.js, Boostrap 4, MongoDB, Express.js</h5>
-            </a>
-          </div>
-          <div class="cell">
-            <a href="/react-crud">
-              <img class="thumbnail" src="/img/react-crud/react-crud-1.png" alt="CRUD Using React.js Firebase" />
-              <h5>A simple CRUD Using React.js Firebase using their services as Auth, and Firestore</h5>
-            </a>
-          </div>
-          <div class="cell">
-            <a href="/vuetify-test">
-              <img class="thumbnail" src="/img/technical-test/technical-test-4.png" alt="Technical Test Fullstack" />
-              <h5>Bulding a Frontend/Backend app under the MEVN Stack for a Technical Test</h5>
-            </a>
-          </div>
+
           <div class="cell">
             <a href="/todo-vuetify">
-              <img class="thumbnail" src="/img/todo-vuetify/vuetify-todo-1.png" alt="Technical Test Fullstack" />
-              <h5>Bulding a Todo App using Vuetify, Vue.js, Vuex and LocalBase</h5>
+              <img
+                class="thumbnail"
+                src="/img/todo-vuetify/vuetify-todo-1.png"
+                alt="Technical Test Fullstack"
+              />
+              <h5>
+                Bulding a Todo App using Vuetify, Vue.js, Vuex and LocalBase
+              </h5>
             </a>
           </div>
           <div class="cell">
             <a href="/todo-vuetify-mevn">
-              <img class="thumbnail" src="/img/vuetify-mevn/vuetify-mevn.png" alt="Technical Test Fullstack" />
+              <img
+                class="thumbnail"
+                src="/img/vuetify-mevn/vuetify-mevn.png"
+                alt="Technical Test Fullstack"
+              />
               <h5>Bulding a Todo App using Vuetify, Vue.js, Vuex + (MEVN)</h5>
             </a>
           </div>
           <div class="cell">
             <a href="/postgres-api">
-              <img class="thumbnail" src="/img/api-postgresql/api1.png" alt="Technical Test Fullstack" />
+              <img
+                class="thumbnail"
+                src="/img/api-postgresql/api1.png"
+                alt="Technical Test Fullstack"
+              />
               <h5>Bulding a API Using Node, Express, Postgresql, Sequelize</h5>
+            </a>
+          </div>
+          <div class="cell">
+            <a href="/u-camp-restaurant-app">
+              <img
+                class="thumbnail"
+                src="/img/ucamp-project-04/ucamp-project-04-1.png"
+                alt="Restaurant App using React.js and Firebase"
+              />
+              <h5>Restaurant App using React.js and Firebase</h5>
             </a>
           </div>
         </div>
@@ -156,10 +155,9 @@
 
     <%- include('partials/scripts')-%>
 
-      <!-- <script src="../public/vendor/jquery.js"></script>
+    <!-- <script src="../public/vendor/jquery.js"></script>
   <script src="../public/vendor/foundation.js"></script>
   <script src="../public/vendor/what-input.js"></script>
   <script src="../public/js/index.js"></script> -->
-</body>
-
+  </body>
 </html>

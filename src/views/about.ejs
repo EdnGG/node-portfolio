@@ -1,83 +1,119 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <%- include('partials/header') -%>
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="x-ua-compatible" content="ie=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About</title>
-  <%- include('partials/header') -%>
+  <body>
+    <%- include('partials/about') -%>
 
-</head>
-
-<body>
-
-  <%- include('partials/about') -%>
-
-  <div class="off-canvas-content" data-off-canvas-content>
-    <div class="title-bar hide-for-large">
-      <div class="title-bar-left">
-        <button class="menu-icon" type="button" data-toggle="my-info"></button>
-        <span class="title-bar-title">Eden Gomez</span>
+    <div class="off-canvas-content" data-off-canvas-content>
+      <div class="title-bar hide-for-large">
+        <div class="title-bar-left">
+          <button
+            class="menu-icon"
+            type="button"
+            data-toggle="my-info"
+          ></button>
+          <span class="title-bar-title">Eden Gomez</span>
+        </div>
       </div>
-    </div>
 
-    <nav class="grid-container portfolio-breadcrumb">
-      <a class="" href="/">&larr; Home</a>
-    </nav>
+      <nav class="grid-container portfolio-breadcrumb">
+        <a class="" href="/">&larr; Home</a>
+      </nav>
 
-    <article class="grid-container portfolio-intro portfolio-project">
-      <div class="grid-x">
-        <div class="cell small-6 medium-9 large-9">
-          <h1>Eden Gomez</h1>
-          <p class="lead text-light">
-            Hello!! I'm a Javascript developer. I currently studying at
-            Treehouse, trying to get my Techdegree and also I'm studing at
-            Platzi, recently just got my certification as a Javascript
-            developer from Platzi.
-          </p>
-          <div class="wrap">
-            <div class="row">
-              <div class="portfolio-bio-about column small-12 medium-6 large-4">
-                <p>
-                  Here's my profile from both sites.
-                </p>
-                <a class="button" id="botton-id" href="https://teamtreehouse.com/edengomez"
-                  target="_blank">Treehouse</a>
-                <a class="button" id="button-id-platzi" href="https://platzi.com/@EdenGg/" target="_blank">Platzi</a>
+      <article class="grid-container portfolio-intro portfolio-project">
+        <div class="grid-x">
+          <div class="cell small-6 medium-9 large-9">
+            <h1>Eden Gomez</h1>
+            <p class="lead text-light">
+              Hello!! I'm a Javascript developer. I have studied on platforms
+              like Treehouse, Platzi and Ucamp, I recently just got my
+              certification as a Javascript developer from Ucamp. I have
+              developed projects for the company where I currently work, I have
+              also developed projects for educational purposes.
+            </p>
+            <div class="wrap">
+              <div class="row">
+                <div
+                  class="portfolio-bio-about column small-12 medium-6 large-4"
+                >
+                  <p>Here's my profile from those sites.</p>
+                  <a
+                    class="button"
+                    id="botton-id"
+                    href="https://teamtreehouse.com/edengomez"
+                    target="_blank"
+                    >Treehouse</a
+                  >
+                  <a
+                    class="button"
+                    id="button-id-platzi"
+                    href="https://platzi.com/@EdenGg/"
+                    target="_blank"
+                    >Platzi</a
+                  >
+                  <a
+                    class="button"
+                    id="button-id-platzi"
+                    href="https://platzi.com/@EdenGg/"
+                    target="_blank"
+                    >Ucamp</a
+                  >
+                </div>
               </div>
             </div>
           </div>
+          <div class="cell portfolio-meta small-6 medium-2 large-3">
+            <h6>Skills</h6>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Vuetify</li>
+              <li>Bootstrap</li>
+              <li>Firebase</li>
+              <li>Node.Js</li>
+              <li>Express.Js</li>
+              <li>React.Js</li>
+              <li>Vue.Js</li>
+              <li>MongoDB</li>
+            </ul>
+            <h6>Contact Info</h6>
+            <ul>
+              <li>678-886-0443</li>
+              <li>gresseden@gmail.com</li>
+            </ul>
+            <a
+              class="button expanded"
+              href="https://www.linkedin.com/in/eden-gomez-5002a386/"
+              target="_blank"
+              >LinkedIn</a
+            >
+            <a
+              class="button expanded"
+              href="https://github.com/EdnGG"
+              target="_blank"
+              >GitHub</a
+            >
+            <a
+              class="button expanded"
+              href="https://twitter.com/EdenGomez1"
+              target="_blank"
+              >Twitter</a
+            >
+          </div>
         </div>
-        <div class="cell portfolio-meta small-6 medium-2 large-3">
-          <h6>Skills</h6>
-          <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>Firebase</li>
-            <li>Node.Js</li>
-            <li>React</li>
-            <li>Vue.Js</li>
-          </ul>
-          <h6>Contact Info</h6>
-          <ul>
-            <li>678-886-0443</li>
-            <li>gresseden@gmail.com</li>
-          </ul>
-          <a class="button expanded" href="https://www.linkedin.com/in/eden-gomez-5002a386/"
-            target="_blank">LinkedIn</a>
-          <a class="button expanded" href="https://github.com/EdnGG" target="_blank">GitHub</a>
-          <a class="button expanded" href="https://twitter.com/EdenGomez1" target="_blank">Twitter</a>
-        </div>
-      </div>
-    </article>
-  </div>
+      </article>
+    </div>
 
-  <%- include('partials/scripts') -%>
-
-</body>
-
+    <%- include('partials/scripts') -%>
+  </body>
 </html>
 
 <!--  testing -->

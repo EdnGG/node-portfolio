@@ -80,7 +80,8 @@ router.get("/todo-vuetify-mevn", (req, res) => {
 router.get("/postgres-api", (req, res) => {
   res.render("postgres-api");
 });
+router.get("/u-camp-restaurant-app", (req, res) => {
+  res.render("u-camp-restaurant-app");
+});
 
 module.exports = router;
-
-
