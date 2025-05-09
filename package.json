@@ -9,11 +9,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
-    "node": "12.x"
+    "node": "20.x"
   },
   "now": {
     "engines": {
-      "node": "12.x"
+      "node": "20.x"
     }
   },
   "keywords": [],
